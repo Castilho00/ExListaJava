@@ -43,7 +43,7 @@ public class Employee {
         salary += salary * percentage / 100;
     }
 
-    public String toString(int id, String name, double salary){
+    public String toString(){
         return id + ", " + name + ", " + String.format("%.2f", salary);
     }
 
